@@ -1,0 +1,292 @@
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+
+  border-radius: 8px;
+  border: 1px solid #ddd; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+ 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ 
+.input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+ 
+.emptyMessage {
+  color: #999;
+  font-style: italic;
+}
+ 
+.button, .editButton, .deleteButton {
+  padding: 6px 12px; 
+  font-size: 12px; 
+  font-weight: normal; 
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-block;
+  text-transform: uppercase;
+  min-width: 70px;  
+  width: auto; 
+  box-sizing: border-box;
+}
+ 
+.button {
+  padding: 8px 16px;  
+  font-size: 14px;  
+  font-weight: bold;  
+  min-width: 100px;  
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 2px 4px rgba(40, 167, 69, 0.3);
+}
+ 
+.button:hover, .editButton:hover, .deleteButton:hover {
+  transform: translateY(-2px);
+}
+
+.button:active, .editButton:active, .deleteButton:active {
+  transform: translateY(1px);
+}
+ 
+.button {
+  background-color: #28a745;
+  color: white;
+  box-shadow: 0 2px 4px rgba(40, 167, 69, 0.3);
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+.button:active {
+  background-color: #1e7e34;
+}
+ 
+.editButton {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+}
+
+.editButton:hover {
+  background-color: #45a049;
+}
+
+.editButton:active {
+  background-color: #388e3c;
+}
+ 
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  box-shadow: 0 2px 4px rgba(244, 67, 54, 0.3);
+}
+
+.deleteButton:hover {
+  background-color: #e53935;
+}
+
+.deleteButton:active {
+  background-color: #d32f2f;
+}
+ 
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+} 
+
+.list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.empty-message {
+  text-align: center;
+  color: #888;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);
+}
+
+.pagination-button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.pagination-button.active {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.pagination-button:active {
+  transform: scale(0.95);
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 15px;
+    margin: 0 20px;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.25rem;
+  }
+
+  .form {
+    gap: 8px;
+  }
+
+  .input {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .button, .editButton, .deleteButton {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .table th, .table td {
+    padding: 8px;
+  }
+
+  .pagination-button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .form {
+    gap: 6px;
+  }
+
+  .input {
+    padding: 8px;
+    font-size: 0.8rem;
+  }
+
+  .button, .editButton, .deleteButton {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+
+  .table th, .table td {
+    padding: 6px;
+  }
+
+  .pagination-button {
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,195 @@
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+
+  border-radius: 8px;
+  border: 1px solid #ddd; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+.bar-container,
+.pie-container { 
+  width: 50%;
+  height: 500px;
+  margin: 0 50px;
+}
+
+.bar-container, .pie-container h2 { 
+  text-align: center; 
+  padding: 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+}
+
+.button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.balance-info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.alert strong {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.chart-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.chart-container { 
+  min-width: 350px; 
+  max-width: 600px; 
+  height: 600px; 
+}
+
+.date-group {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 22px; 
+  font-size: 14px; 
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button.active {
+  background-color: #21cb15;
+  color: white;
+}
+
+.chart-container h3 {
+  text-align: center;
+}
+
+.totals-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 20px auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.totals-card h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.totals-card h4:first-child {
+  color: #2ecc71;
+}
+
+.totals-card h4:nth-child(2) {
+  color: #e74c3c;
+} 
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+ 
+@media (min-width: 769px) and (max-width: 1024px) {
+  .bar-container,
+  .pie-container {
+    width: 80%; 
+    margin: 0 20px;
+  }
+
+  .chart-container-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .chart-container {
+    min-width: 300px;
+    max-width: 500px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .totals-card {
+    width: 250px;
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .bar-container,
+  .pie-container {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .chart-container-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .chart-container {
+    min-width: 280px;
+    max-width: 450px;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .totals-card {
+    width: 100%;
+    padding: 10px;
+  }
+}
