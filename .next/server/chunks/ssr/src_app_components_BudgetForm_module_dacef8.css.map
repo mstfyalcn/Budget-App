@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/mustafa/Desktop/personal-budget-app/src/app/components/BudgetForm.module.css"],"sourcesContent":[".form-container {\r\n    max-width: 400px;\r\n    margin: 0 auto;\r\n    padding: 20px;\r\n    border: 1px solid #ccc;\r\n    border-radius: 8px;\r\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\r\n    background-color: #f9f9f9;\r\n  }\r\n  \r\n  .form-container label {\r\n    font-weight: bold;\r\n    margin-bottom: 5px;\r\n    display: block;\r\n  }\r\n  \r\n  .form-container input,\r\n  .form-container select {\r\n    width: 100%;\r\n    padding: 10px;\r\n    margin-bottom: 15px;\r\n    border: 1px solid #ccc;\r\n    border-radius: 4px;\r\n    font-size: 14px;\r\n  }\r\n  \r\n  .form-container button {\r\n    width: 100%;\r\n    padding: 10px;\r\n    background-color: #007bff;\r\n    color: #fff;\r\n    border: none;\r\n    border-radius: 4px;\r\n    font-size: 16px;\r\n    cursor: pointer;\r\n    transition: background-color 0.3s ease;\r\n  }\r\n  \r\n  .form-container button:hover {\r\n    background-color: #0056b3;\r\n  }"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUE;;;;;;AAMA;;;;;;;;;AAUA;;;;;;;;;;;;AAYA"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

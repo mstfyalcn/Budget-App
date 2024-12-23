@@ -1,0 +1,171 @@
+/* [project]/src/app/components/BudgetForm/BudgetForm.module.css [app-client] (css) */
+.BudgetForm-module__qfovha__form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #0000001a;
+  background-color: #f9f9f9;
+}
+
+.BudgetForm-module__qfovha__form-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.BudgetForm-module__qfovha__form-container input, .BudgetForm-module__qfovha__form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.BudgetForm-module__qfovha__form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.BudgetForm-module__qfovha__form-container button:hover {
+  background-color: #0056b3;
+}
+
+
+/* [project]/src/app/components/Category/CategoryForm.module.css [app-client] (css) */
+.CategoryForm-module__9BpJ-W__container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #0000001a;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.CategoryForm-module__9BpJ-W__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.CategoryForm-module__9BpJ-W__subTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.CategoryForm-module__9BpJ-W__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.CategoryForm-module__9BpJ-W__input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color .3s;
+}
+
+.CategoryForm-module__9BpJ-W__input:focus {
+  border-color: #007bff;
+}
+
+.CategoryForm-module__9BpJ-W__button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.CategoryForm-module__9BpJ-W__button:hover {
+  background-color: #0056b3;
+}
+
+.CategoryForm-module__9BpJ-W__list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.CategoryForm-module__9BpJ-W__listItem {
+  font-size: 1rem;
+  color: #333;
+  background-color: #f1f1f1;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+
+.CategoryForm-module__9BpJ-W__listItem:last-child {
+  margin-bottom: 0;
+}
+
+.CategoryForm-module__9BpJ-W__emptyMessage {
+  color: #999;
+  font-style: italic;
+}
+
+
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__container {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.page-module___8aEwW__dark-mode .page-module___8aEwW__container {
+  background-color: #1f2a44;
+  color: #fff;
+}
+
+.page-module___8aEwW__page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.page-module___8aEwW__button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.page-module___8aEwW__button:hover {
+  background-color: #a100b3;
+}
+
+.page-module___8aEwW__button:focus {
+  outline: none;
+}
+
+.page-module___8aEwW__button + .page-module___8aEwW__button {
+  margin-left: 10px;
+}
+
+
+/*# sourceMappingURL=src_app_f7a159._.css.map*/

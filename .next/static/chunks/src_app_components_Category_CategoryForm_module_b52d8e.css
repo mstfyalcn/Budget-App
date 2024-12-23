@@ -1,0 +1,296 @@
+/* [project]/src/app/components/Category/CategoryForm.module.css [app-client] (css) */
+.CategoryForm-module__9BpJ-W__container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px #0000001a;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.CategoryForm-module__9BpJ-W__container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.CategoryForm-module__9BpJ-W__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.CategoryForm-module__9BpJ-W__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.CategoryForm-module__9BpJ-W__input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color .3s;
+}
+
+.CategoryForm-module__9BpJ-W__input:focus {
+  border-color: #007bff;
+}
+
+.CategoryForm-module__9BpJ-W__emptyMessage {
+  color: #999;
+  font-style: italic;
+}
+
+.CategoryForm-module__9BpJ-W__button, .CategoryForm-module__9BpJ-W__editButton, .CategoryForm-module__9BpJ-W__deleteButton {
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color .2s, transform .2s, box-shadow .2s;
+  display: inline-block;
+  text-transform: uppercase;
+  min-width: 70px;
+  width: auto;
+  box-sizing: border-box;
+}
+
+.CategoryForm-module__9BpJ-W__button {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 100px;
+  background-color: #28a745;
+  color: #fff;
+  box-shadow: 0 2px 4px #28a7454d;
+}
+
+.CategoryForm-module__9BpJ-W__button:hover, .CategoryForm-module__9BpJ-W__editButton:hover, .CategoryForm-module__9BpJ-W__deleteButton:hover {
+  transform: translateY(-2px);
+}
+
+.CategoryForm-module__9BpJ-W__button:active, .CategoryForm-module__9BpJ-W__editButton:active, .CategoryForm-module__9BpJ-W__deleteButton:active {
+  transform: translateY(1px);
+}
+
+.CategoryForm-module__9BpJ-W__button {
+  background-color: #28a745;
+  color: #fff;
+  box-shadow: 0 2px 4px #28a7454d;
+}
+
+.CategoryForm-module__9BpJ-W__button:hover {
+  background-color: #218838;
+}
+
+.CategoryForm-module__9BpJ-W__button:active {
+  background-color: #1e7e34;
+}
+
+.CategoryForm-module__9BpJ-W__editButton {
+  background-color: #4caf50;
+  color: #fff;
+  box-shadow: 0 2px 4px #4caf504d;
+}
+
+.CategoryForm-module__9BpJ-W__editButton:hover {
+  background-color: #45a049;
+}
+
+.CategoryForm-module__9BpJ-W__editButton:active {
+  background-color: #388e3c;
+}
+
+.CategoryForm-module__9BpJ-W__deleteButton {
+  background-color: #f44336;
+  color: #fff;
+  box-shadow: 0 2px 4px #f443364d;
+}
+
+.CategoryForm-module__9BpJ-W__deleteButton:hover {
+  background-color: #e53935;
+}
+
+.CategoryForm-module__9BpJ-W__deleteButton:active {
+  background-color: #d32f2f;
+}
+
+.CategoryForm-module__9BpJ-W__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.CategoryForm-module__9BpJ-W__table th, .CategoryForm-module__9BpJ-W__table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.CategoryForm-module__9BpJ-W__table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.CategoryForm-module__9BpJ-W__table tr:nth-child(2n) {
+  background-color: #f9f9f9;
+}
+
+.CategoryForm-module__9BpJ-W__table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.CategoryForm-module__9BpJ-W__list-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.CategoryForm-module__9BpJ-W__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.CategoryForm-module__9BpJ-W__table th, .CategoryForm-module__9BpJ-W__table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.CategoryForm-module__9BpJ-W__empty-message {
+  text-align: center;
+  color: #888;
+}
+
+.CategoryForm-module__9BpJ-W__delete-button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color .3s;
+}
+
+.CategoryForm-module__9BpJ-W__delete-button:hover {
+  background-color: #c0392b;
+}
+
+.CategoryForm-module__9BpJ-W__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.CategoryForm-module__9BpJ-W__pagination-button {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color .3s, transform .2s;
+}
+
+.CategoryForm-module__9BpJ-W__pagination-button:hover {
+  background-color: #2980b9;
+  transform: scale(1.1);
+}
+
+.CategoryForm-module__9BpJ-W__pagination-button:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.CategoryForm-module__9BpJ-W__pagination-button.CategoryForm-module__9BpJ-W__active {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.CategoryForm-module__9BpJ-W__pagination-button:active {
+  transform: scale(.95);
+}
+
+@media (width >= 769px) and (width <= 1024px) {
+  .CategoryForm-module__9BpJ-W__container {
+    padding: 15px;
+    margin: 0 20px;
+    max-width: 100%;
+  }
+
+  .CategoryForm-module__9BpJ-W__title {
+    font-size: 1.25rem;
+  }
+
+  .CategoryForm-module__9BpJ-W__form {
+    gap: 8px;
+  }
+
+  .CategoryForm-module__9BpJ-W__input {
+    padding: 10px;
+    font-size: .9rem;
+  }
+
+  .CategoryForm-module__9BpJ-W__button, .CategoryForm-module__9BpJ-W__editButton, .CategoryForm-module__9BpJ-W__deleteButton {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .CategoryForm-module__9BpJ-W__table th, .CategoryForm-module__9BpJ-W__table td {
+    padding: 8px;
+  }
+
+  .CategoryForm-module__9BpJ-W__pagination-button {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (width <= 480px) {
+  .CategoryForm-module__9BpJ-W__container {
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  .CategoryForm-module__9BpJ-W__title {
+    font-size: 1.1rem;
+  }
+
+  .CategoryForm-module__9BpJ-W__form {
+    gap: 6px;
+  }
+
+  .CategoryForm-module__9BpJ-W__input {
+    padding: 8px;
+    font-size: .8rem;
+  }
+
+  .CategoryForm-module__9BpJ-W__button, .CategoryForm-module__9BpJ-W__editButton, .CategoryForm-module__9BpJ-W__deleteButton {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
+
+  .CategoryForm-module__9BpJ-W__table th, .CategoryForm-module__9BpJ-W__table td {
+    padding: 6px;
+  }
+
+  .CategoryForm-module__9BpJ-W__pagination-button {
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=src_app_components_Category_CategoryForm_module_b52d8e.css.map*/

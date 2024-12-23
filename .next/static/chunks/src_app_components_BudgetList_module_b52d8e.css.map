@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/src/app/components/BudgetList.module.css"],"sourcesContent":[".list-container {\r\n    max-width: 800px;\r\n    margin: 0 auto;\r\n    padding: 20px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 8px;\r\n    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\r\n    background-color: #ffffff;\r\n  }\r\n  \r\n  .list-container h1 {\r\n    text-align: center;\r\n    margin-bottom: 20px;\r\n    font-size: 24px;\r\n    color: #333;\r\n  }\r\n  \r\n  .table {\r\n    width: 100%;\r\n    border-collapse: collapse;\r\n    margin-bottom: 20px;\r\n  }\r\n  \r\n  .table th,\r\n  .table td {\r\n    border: 1px solid #ddd;\r\n    padding: 12px 15px;\r\n    text-align: left;\r\n  }\r\n  \r\n  .table th {\r\n    background-color: #007bff;\r\n    color: #ffffff;\r\n    font-weight: bold;\r\n  }\r\n  \r\n  .table tr:nth-child(even) {\r\n    background-color: #f9f9f9;\r\n  }\r\n  \r\n  .table tr:hover {\r\n    background-color: #f1f1f1;\r\n  }\r\n  \r\n  .empty-message {\r\n    text-align: center;\r\n    font-size: 16px;\r\n    color: #666;\r\n  }\r\n  .budget-limit {\r\n    margin-bottom: 20px;\r\n    font-size: 1.2rem;\r\n    color: #2c3e50;\r\n  }"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUE;;;;;;;AAOA;;;;;;AAMA;;;;;;AAOA;;;;;;AAMA;;;;AAIA;;;;AAIA;;;;;;AAKA"}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

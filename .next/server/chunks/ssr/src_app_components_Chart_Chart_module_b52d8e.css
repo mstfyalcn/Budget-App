@@ -1,0 +1,197 @@
+/* [project]/src/app/components/Chart/Chart.module.css [app-client] (css) */
+.Chart-module__hAM3ia__container {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px #0000001a;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.Chart-module__hAM3ia__container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.Chart-module__hAM3ia__bar-container, .Chart-module__hAM3ia__pie-container {
+  width: 50%;
+  height: 500px;
+  margin: 0 50px;
+}
+
+.Chart-module__hAM3ia__bar-container, .Chart-module__hAM3ia__pie-container h2 {
+  text-align: center;
+  padding: 10px;
+}
+
+.Chart-module__hAM3ia__button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.Chart-module__hAM3ia__button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color .3s;
+}
+
+.Chart-module__hAM3ia__button:hover {
+  background-color: #e0e0e0;
+}
+
+.Chart-module__hAM3ia__button.Chart-module__hAM3ia__active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.Chart-module__hAM3ia__balance-info {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Chart-module__hAM3ia__alert strong {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Chart-module__hAM3ia__chart-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Chart-module__hAM3ia__chart-container {
+  min-width: 350px;
+  max-width: 600px;
+  height: 600px;
+}
+
+.Chart-module__hAM3ia__date-group {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+  justify-content: center;
+}
+
+.Chart-module__hAM3ia__button {
+  padding: 10px 22px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.Chart-module__hAM3ia__button.Chart-module__hAM3ia__active {
+  background-color: #21cb15;
+  color: #fff;
+}
+
+.Chart-module__hAM3ia__chart-container h3 {
+  text-align: center;
+}
+
+.Chart-module__hAM3ia__totals-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px #0000001a;
+  text-align: center;
+  margin: 20px auto;
+  font-family: Roboto, sans-serif;
+}
+
+.Chart-module__hAM3ia__totals-card h4 {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.Chart-module__hAM3ia__totals-card h4:first-child {
+  color: #2ecc71;
+}
+
+.Chart-module__hAM3ia__totals-card h4:nth-child(2) {
+  color: #e74c3c;
+}
+
+.Chart-module__hAM3ia__button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+@media (width >= 769px) and (width <= 1024px) {
+  .Chart-module__hAM3ia__bar-container, .Chart-module__hAM3ia__pie-container {
+    width: 80%;
+    margin: 0 20px;
+  }
+
+  .Chart-module__hAM3ia__chart-container-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Chart-module__hAM3ia__chart-container {
+    min-width: 300px;
+    max-width: 500px;
+  }
+
+  .Chart-module__hAM3ia__button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .Chart-module__hAM3ia__totals-card {
+    width: 250px;
+    padding: 15px;
+  }
+}
+
+@media (width <= 480px) {
+  .Chart-module__hAM3ia__bar-container, .Chart-module__hAM3ia__pie-container {
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .Chart-module__hAM3ia__button-group {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .Chart-module__hAM3ia__chart-container-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Chart-module__hAM3ia__chart-container {
+    min-width: 280px;
+    max-width: 450px;
+  }
+
+  .Chart-module__hAM3ia__button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .Chart-module__hAM3ia__totals-card {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=src_app_components_Chart_Chart_module_b52d8e.css.map*/

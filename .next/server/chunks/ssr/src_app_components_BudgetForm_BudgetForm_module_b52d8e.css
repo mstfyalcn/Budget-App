@@ -1,0 +1,76 @@
+/* [project]/src/app/components/BudgetForm/BudgetForm.module.css [app-client] (css) */
+.BudgetForm-module__qfovha__form-container {
+  width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px #0000001a;
+  background-color: #fff;
+}
+
+.BudgetForm-module__qfovha__form-container label {
+  font-weight: bold;
+  margin: 8px;
+  display: block;
+}
+
+.BudgetForm-module__qfovha__form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.BudgetForm-module__qfovha__form-container input, .BudgetForm-module__qfovha__form-container select, .BudgetForm-module__qfovha__form-container button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.BudgetForm-module__qfovha__form-container button {
+  background-color: #218838;
+  color: #fff;
+  box-shadow: 0 4px 8px #28a7454d;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.BudgetForm-module__qfovha__form-container button:hover {
+  background-color: #1e7e34;
+}
+
+.BudgetForm-module__qfovha__form-container button:active {
+  background-color: #1c7430;
+  transform: translateY(1px);
+}
+
+@media (width >= 769px) and (width <= 1024px) {
+  .BudgetForm-module__qfovha__form-container {
+    padding: 100px;
+  }
+
+  .BudgetForm-module__qfovha__form-container input, .BudgetForm-module__qfovha__form-container select, .BudgetForm-module__qfovha__form-container button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (width <= 480px) {
+  .BudgetForm-module__qfovha__form-container {
+    padding: 10px;
+    max-width: 95%;
+  }
+
+  .BudgetForm-module__qfovha__form-container input, .BudgetForm-module__qfovha__form-container select, .BudgetForm-module__qfovha__form-container button {
+    font-size: 18px;
+  }
+}
+
+/*# sourceMappingURL=src_app_components_BudgetForm_BudgetForm_module_b52d8e.css.map*/

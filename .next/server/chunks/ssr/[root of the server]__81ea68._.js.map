@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/mustafa/Desktop/personal-budget-app/pages/index.tsx"],"sourcesContent":["import React from 'react';\r\n\r\nconst Page = () => {\r\n  return (\r\n    <div>\r\n      <h1>Merhaba, Kişisel Bütçe Uygulamasına Hoşgeldiniz!</h1>\r\n      <p>Gelir ve giderlerinizi buradan takip edebilirsiniz.</p>\r\n    </div>\r\n  );\r\n};\r\n\r\nexport default Page;"],"names":[],"mappings":";;;;;AAEA,MAAM,OAAO;IACX,qBACE,qKAAC;;0BACC,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;0BAAE;;;;;;;;;;;;AAGT;uCAEe"}},
+    {"offset": {"line": 85, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

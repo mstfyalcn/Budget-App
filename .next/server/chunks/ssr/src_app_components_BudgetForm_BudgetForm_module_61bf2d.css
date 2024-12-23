@@ -1,0 +1,44 @@
+/* [project]/src/app/components/BudgetForm/BudgetForm.module.css [app-client] (css) */
+.BudgetForm-module__qfovha__form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #0000001a;
+  background-color: #f9f9f9;
+}
+
+.BudgetForm-module__qfovha__form-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.BudgetForm-module__qfovha__form-container input, .BudgetForm-module__qfovha__form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.BudgetForm-module__qfovha__form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.BudgetForm-module__qfovha__form-container button:hover {
+  background-color: #0056b3;
+}
+
+
+/*# sourceMappingURL=src_app_components_BudgetForm_BudgetForm_module_61bf2d.css.map*/

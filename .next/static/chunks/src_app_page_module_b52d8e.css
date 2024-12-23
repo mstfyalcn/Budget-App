@@ -1,0 +1,131 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__container {
+  background-color: #fff;
+  min-height: 100vh;
+  min-width: 900px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.page-module___8aEwW__page-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.page-module___8aEwW__button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.page-module___8aEwW__button + .page-module___8aEwW__button {
+  margin-left: 10px;
+}
+
+.page-module___8aEwW__buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.page-module___8aEwW__buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px #0000001a;
+  background-color: #ff9f00;
+}
+
+.page-module___8aEwW__button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color .3s, transform .3s;
+}
+
+.page-module___8aEwW__button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.page-module___8aEwW__button:active {
+  transform: translateY(1px);
+}
+
+@media (width <= 768px) {
+  .page-module___8aEwW__container {
+    padding: 15px;
+  }
+
+  .page-module___8aEwW__page-title {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .page-module___8aEwW__button {
+    font-size: 14px;
+    padding: 8px 15px;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .page-module___8aEwW__buttonWrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .page-module___8aEwW__buttonContainer {
+    flex-direction: column;
+    padding: 15px;
+  }
+}
+
+@media (width >= 769px) and (width <= 1024px) {
+  .page-module___8aEwW__container {
+    padding: 20px;
+  }
+
+  .page-module___8aEwW__page-title {
+    font-size: 1.4rem;
+    text-align: left;
+  }
+
+  .page-module___8aEwW__button {
+    font-size: 15px;
+    padding: 10px 18px;
+    margin: 5px;
+  }
+
+  .page-module___8aEwW__buttonWrapper {
+    height: 80vh;
+  }
+
+  .page-module___8aEwW__buttonContainer {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+
+  .page-module___8aEwW__button {
+    flex: calc(50% - 10px);
+    margin: 5px;
+  }
+}
+
+/*# sourceMappingURL=src_app_page_module_b52d8e.css.map*/
